@@ -1,0 +1,148 @@
+.aboutbody {
+    font-family: "Cairo", sans-serif;
+    color: #999;
+    background-image: url("https://res.cloudinary.com/decpgk49e/image/upload/v1560476746/erakomp/about-v2/BACKGROUND_1_v663su.jpg");
+    background-size: auto 5420px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: justify;
+  }
+
+  .progheading{
+    text-align: center;
+    padding: 30px 50px;
+  }
+
+  .welhead{
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  
+  .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+  }
+  
+  .col-sm-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .flex-column {
+    flex-direction: column;
+  }
+  
+  .justify-content-center {
+    justify-content: center;
+  }
+  
+  .text-sm-right {
+    text-align: right;
+  }
+  
+  .align-items-md-end {
+    align-items: flex-end;
+  }
+  
+  .spacer-b {
+    margin-bottom: 5em;
+  }
+  
+  .header {
+    margin-bottom: 5em;
+  }
+  
+  .header img {
+    width: 100%;
+  }
+  
+  #partners {
+    background-image: url("https://res.cloudinary.com/decpgk49e/image/upload/v1560476745/erakomp/about-v2/PIC_4_i6ezd0.png");
+    background-size: auto 360px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 375px;
+  }
+  
+  .partner--text {
+    color: #555;
+    font-weight: bold;
+    line-height: 30px;
+  }
+  
+  footer {
+    /* padding-bottom: 50px; */
+    background: url("https://res.cloudinary.com/decpgk49e/image/upload/v1560476746/erakomp/about-v2/BACKGROUND_1_v663su.jpg") no-repeat;
+    background-position: 0 -4653px;
+    height: 350px;
+    width: 100%;
+    color: #7bc9ed;
+  }
+
+  .footer {
+    display: flex;
+  
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .footer-column {
+    flex: 1;
+    max-width: 650px;
+    margin: 0 15px;
+  }
+  
+  .footer p {
+    padding-top: 140px;
+    padding-left: 100px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #7bc9ed;
+  }
+  
+  
+  #history img {
+    width: 100%;
+  }
+
+  .parag{
+    line-height: 28px;
+  }
+  
+  @media (max-width: 768px) {
+    footer {
+      height: 450px;
+      flex-direction: column;
+      padding-bottom: 0;
+    }
+    footer div {
+      justify-content: around;
+    }
+    footer p {
+      width: 100%;
+    }
+    .spacer-b {
+      margin-bottom: 5em;
+    }
+  }
+  
